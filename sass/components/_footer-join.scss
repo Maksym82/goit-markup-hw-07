@@ -1,0 +1,14 @@
+.footer-join {
+    margin-left: 70px;
+    min-width: 206px;
+
+    &__title {
+        color: var(--white-color);
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+    } 
+}
+

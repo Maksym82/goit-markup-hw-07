@@ -1,0 +1,50 @@
+.footer__adress {
+    margin-top: 20px;
+}
+
+.footer-nav {
+    @extend %list;
+}
+
+
+.footer__item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer__primary-link {
+    display: block;
+    color: var(--white-color);
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover,
+        &:focus {
+            color: var(--accent-color);
+        }
+}
+
+
+
+.footer__second-link {
+    display: block;
+    color: var(--white-second-text-color);
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+

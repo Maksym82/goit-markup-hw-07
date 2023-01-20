@@ -1,0 +1,15 @@
+.footer {
+    background-color: var(--background-dark-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    &__container {
+        display: flex;
+        align-items: baseline;
+        width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+    }
+
+}
